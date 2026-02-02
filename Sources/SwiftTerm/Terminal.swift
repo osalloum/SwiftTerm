@@ -248,7 +248,7 @@ open class Terminal {
     /// The current terminal rows (counting from 1)
     public private(set) var rows: Int = 25
     var tabStopWidth : Int = 8
-    var options: TerminalOptions
+    public var options: TerminalOptions
     
     // The current buffers
     var buffers : BufferSet!
